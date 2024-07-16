@@ -28,8 +28,8 @@ Users should be able to:
 ![](./screenshot.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-frontend-mentor-5EduwdhcNw)
-- Live Site URL: [Add live site URL here](https://arjuno-008.github.io/Intro-component-with-sign-up-form-Frontend-mentor/)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-frontend-mentor-5EduwdhcNw)
+- Live Site URL: [Click here](https://arjuno-008.github.io/Intro-component-with-sign-up-form-Frontend-mentor/)
 
 
 ## Author
