@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <main>
+
+    <section class="left">
+      <h1>Learn to code by <br> watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+    <section class="right">
+      <div class="trialcard">
+        <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+      </div>
+      <div class="formcard">
+        <form action="form" method="post">
+
+          <div>
+            <span>
+              <input type="text" placeholder="First Name" id="FirstName" onchange="detectChange(event)" name="First Name">
+              <img src="images/icon-error.svg" alt="error-Icon">
+            </span>
+            <label for="FirstName" id="FNerr"></label>
+          </div>
+
+          <div>
+            <span>
+              <input type="text" placeholder="Last Name" id="LastName" onchange="detectChange(event)" name="Last Name">
+              <img src="images/icon-error.svg" alt="error-Icon">
+            </span>
+            <label for="LastName" id="LNerr"></label>
+          </div>
+
+          <div>
+            <span>
+              <input type="email" name="Email" id="email" onchange="detectChange(event)" placeholder="Email Address">
+              <img src="images/icon-error.svg" alt="error-Icon">
+            </span>
+            <label for="Email" id="emailLabel"></label>
+          </div>
+          <div>
+            <span>
+              <input type="password" placeholder="Password" onchange="detectChange(event)" name="Password" id="pasword">
+              <img src="images/icon-error.svg" alt="error-Icon">
+            </span>
+            <label for="Password" id="PassLabel"></label>
+          </div>
+
+
+
+          <button type="submit" id="sbtBtn">Claim your free trial </button>
+        </form>
+        <p>
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </p>
+      </div>
+
+    </section>
+
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
